@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>favorites</title>
+    <link rel="shortcut icon" href="images/logo.png"/>
+    <link rel="stylesheet" href="CSS/styleFAV.css">
+</head>
+<body>
+    <header>
+        <div class="header-name">
+            <b class="name">WikiHachi,</b>
+            <div class="substring-name">Go-developer</div>
+            <a id="kaomoji">(^_<)〜☆</a>
+        </div>
+
+        <div class="link-pages">
+            <ul>
+                <!-- <li><button><img src="/images/icons/USA.png">/<img src="/images/icons/RUS.png"></button></li> -->
+                <li><a href="index.html">main</a></li>
+                <li><a href="favorites.html">my-favorites</a></li>
+                <!-- <li><a href="#">photos</a></li> -->
+            </ul>
+        </div>
+    </header>
+        <div class="line-header">
+        <div class="main-line-centre"></div>
+        </div>
+    <main>
+        <div class="main-mywaifu">
+            <div class="main-mywaifu-card" id="link-duvet">
+                <div class="title-mywaifu-card">
+                    <img src="images/icons/heart-wf.png" alt="icon heart">
+                    <span><b>My waifu o((>ω< ))o</b></span>
+                </div>
+                <img src="images/lain.webp" alt="lain img">
+            </div>
+        </div>
+        <div class="block-fav-anime">
+            <div class="main-favorite-anime">
+                <div class="card-a active">
+                    <h2>Paprika</h2>
+                    <img src="images/paprika.webp" alt="Paprika-cover">
+                    <p>dreams</p>
+                </div>
+            
+                <div class="card-a">
+                    <h2>Sonny boy</h2>
+                    <img src="images/sonny-boy.webp" alt="Sonny Boy cover">
+                    <p>metaphor</p>
+                </div>
+            
+                <div class="card-a">
+                    <h2>Gachiakuta</h2>
+                    <img src="images/gachiakuta.jpg" alt="Gachiakuta cover">
+                    <p>trash</p>
+                </div>
+            </div>
+            
+            <div class="controls-cards">
+                <button id="prev" class="prev">←</button>
+                <button id="next" class="next">→</button>
+            </div>         
+        </div>
+
+        <div class="main-music">
+            <div class="main-favorite-music">
+                <div class="title-favorite-music">
+                    <img src="images/icons/spotify.png" alt="icon spotify">
+                    <span><b>My favorites albums</b></span>
+                </div>
+                <iframe
+                id = "spotifyWidget"
+                style="border-radius:12px; width:350px; height:350px;" 
+                src="https://open.spotify.com/embed/track/3my33XXLpYUzVEeLOyftV2" 
+                frameborder="0" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+              </iframe>
+              <div class="button-music">
+              <button id="changeTracks">next</button>
+              </div>
+            </div>
+        </div>
+        <div class="main-text">
+            <h2>favorites</h2>
+            <p>This is a page where I collect my favorite things: waifus, music, as well as my favorite anime and manga with short descriptions and personal impressions.</p>
+        </div>
+    </main>
+<div class="line-footer">
+    <div class="main-line-centre"></div>
+</div>
+    <footer>
+            <div id="footer-copyright">
+            <p>© ∞ YonHachi</p>
+            <p>☆*: .｡. o(≧▽≦)o .｡.:*☆</p>
+        </div>
+    </footer>
+    <script src="JS/img.js"></script>
+    <script src="JS/kaomoji.js"></script>
+    <script src="JS/lain.js"></script>
+    <script src="JS/next.js"></script>
+    <script src="JS/tracks.js"></script>
+    <script src="JS/copyright.js"></script>
+</body>
+</html>
