@@ -85,7 +85,7 @@ header {
 }
 
 .main-line-centre {
-    width: 90%;
+    width: 91%;
     margin-top: 25px;
     border-top: 1px solid rgba(177,178,181,0.35);
 }
@@ -406,11 +406,30 @@ footer {
     padding-left: 10px;
     padding-right: 10px;
   }
-  .main-mywaifu,
-  .block-fav-anime,
-  .main-music,
-  .main-text {
-    padding-left: 10px;
-    padding-right: 10px;
+
+  .main-mywaifu {
+    padding-left: 0;
+    justify-content: center;
   }
+
+  .block-fav-anime {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .main-music {
+    padding-left: 0;
+    justify-content: center;
+  }
+  
+  .main-text {
+    padding-top: 0;
+    justify-content: center;
+  }
+
+  .line-footer {
+    margin-top: 10px;
+    justify-content: center;
+  }
+
 }
