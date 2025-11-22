@@ -401,6 +401,10 @@ footer {
 }
 
 @media (max-width:480px) {
+  main {
+    padding-top: 20px;
+  }
+
   .header-name,
   .link-pages ul {
     padding-left: 10px;
