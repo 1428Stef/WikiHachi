@@ -359,7 +359,7 @@ footer {
 
 /*end footer */
 
-@media (max-width: 1024px) {
+@media (max-width: 1300px) {
     .header-name {
         padding-left: 40px;
     }
@@ -548,3 +548,8 @@ footer {
     }
 }
 
+@media (max-width: 1800px) {
+    .main-text-about-cards {
+        height: auto;
+    }
+}
