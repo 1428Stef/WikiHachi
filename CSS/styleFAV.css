@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Geist Mono Variable';
-    src: url('/fonts/GeistMono-VariableFont_wght.ttf') format('truetype');
+    src: url('fonts/GeistMono-VariableFont_wght.ttf') format('truetype');
     font-weight: 100 900;
     font-style: normal;
-  font-display: swap;
+    font-display: swap;
 }
 
 * {
@@ -406,7 +406,6 @@ footer {
     padding-left: 10px;
     padding-right: 10px;
   }
-
   .main-mywaifu,
   .block-fav-anime,
   .main-music,
