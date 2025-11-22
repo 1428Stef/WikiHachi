@@ -462,8 +462,7 @@ footer {
         padding: 6px 8px;
   }
 
-  .card-a.active,
-  .card-a {
-    font-size: 14px;
+  .card-a.active {
+    padding: 10px 12px;
   }
 }
