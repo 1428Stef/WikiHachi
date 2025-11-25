@@ -1,3 +1,3 @@
-## Hello, it's my website 
+## Hello, this is my website 
 
 `1428 ☆*: .｡. o(≧▽≦)o .｡.:*☆`
