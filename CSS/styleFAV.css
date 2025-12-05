@@ -16,6 +16,7 @@ body {
     background-color: rgb(26,29,41);
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 a:hover {
@@ -42,6 +43,8 @@ header {
 
 .header-name {
     padding-left: 90px;
+    display: flex;
+    flex-direction: column;
 }
 
 .link-pages ul {
@@ -92,11 +95,12 @@ header {
 
 /* start main */
 main {
-    justify-content: flex-start;
     padding-top: 70px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .main-mywaifu-card {
@@ -152,14 +156,15 @@ main {
 
 .main-favorite-anime {
     position: relative;
-    width: 320px;
-    height: 420px;
+    width: 100%;
+    max-width: 320px;
+    height: 480px;
 }
 
 .card-a {
     position: absolute;
-    width: 320px;
-    height: 450px;
+    width: 100%;
+    height: 100%;
     background: rgba(20,22,30,0.55);
     border-radius: 12px;
     padding: 30px;
@@ -273,7 +278,7 @@ main {
 
 .main-favorite-music button {
     border-radius: 12px;
-    width: 100px;
+    width: 100%;
     backdrop-filter: blur(6px);
     background: rgba(128,133,150,0.63);
     cursor: pointer;
@@ -289,12 +294,6 @@ main {
     box-shadow: 0 4px 12px rgba(128,133,150,0.6);
 }
 
-.main-favorite-music:active {
-    background: rgba(128,133,150,0.95);
-    box-shadow: 0 2px 6px rgba(128,133,150,0.8);
-    transform: scale(0.98);
-}
-
 .button-music {
     display: flex;
     justify-content: center;
@@ -302,8 +301,8 @@ main {
 
 .main-text {
     width: 100%;
-    max-width: 500px;
-    padding: 0 20px;
+    max-width: 450px;
+    padding: 20px;
     padding-top: 30px;
 }
 /*end main*/
